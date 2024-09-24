@@ -1,32 +1,27 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
-int main (){
-    int amount_of_real_numbers_summed_up;
-    int number_in_the_loop;
-    int sum_of_real_numbers;
+int main(){
+    int number_for_multiplication_table;
+    int number_in_the_loop_2;
 
-    number_in_the_loop = 1;
-    sum_of_real_numbers = 0;
+    number_in_the_loop_2 = 1;
+    
+    
+    cout<<"Please input number for multiplication table."<<'\n';
+    cin>>number_for_multiplication_table;
 
-    cout<<"Please input amount of natural numbers that will be summed up."<<endl;
-    cin>>amount_of_real_numbers_summed_up;
+    cout<<" "<<'\n';
+
+    cout<<"Input: "<<number_for_multiplication_table<<'\n';
+
+    cout<<"Output:";
 
     cout<<'\n';
 
-    cout<<"Input = "<<amount_of_real_numbers_summed_up<<'\n';
-
-    cout<<"Output = ";
-
- 
-    while(number_in_the_loop <= amount_of_real_numbers_summed_up){
-        cout<<number_in_the_loop;
-        sum_of_real_numbers += number_in_the_loop;
-        number_in_the_loop++;
-        if(number_in_the_loop <= amount_of_real_numbers_summed_up){
-            cout<<" + ";
+    while(number_in_the_loop_2 <= 10){
+        cout<<number_for_multiplication_table<<" x "<<number_in_the_loop_2<<" = "<<number_for_multiplication_table*number_in_the_loop_2<<'\n';
+        number_in_the_loop_2++;
         }
-    }
-    
-    cout<<" = "<<sum_of_real_numbers<<'\n';
 }
