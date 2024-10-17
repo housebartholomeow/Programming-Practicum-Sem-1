@@ -1,9 +1,9 @@
 CXX = g++
 CXXFLAGS = -Wall
 TARGET = Meeting_6
-TEST_TARGET = Meeting_6_tests
+TEST_TARGET = meeting_6_test_cases
 SRC = Meeting_6.cpp
-TEST_SRC = Meeting_6_tests.cpp
+TEST_SRC = meeting_6_test_cases.txt
 
 all: $(TARGET)
 	./$(TARGET)
