@@ -29,7 +29,7 @@ int main(){
     
     for(int i = 0; i < n; i++){
         std::cout<<"NIM: "<<theStudent[i].NIM<<std::endl;
-        std::cout<<"Average Score: "<<(theStudent[i].UTS+theStudent[i].UAS)/2;
+        std::cout<<"Average Score: "<<(theStudent[i].UTS+theStudent[i].UAS)/2<<std::endl;
     }
     return 0;
 }
