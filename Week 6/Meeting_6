@@ -6,7 +6,7 @@ struct StudentRec{
     double UTS;
     double UAS;
 };
-StudentRec theStudent[10];
+StudentRec theStudent[50];
 
 int main(){
     int n;
