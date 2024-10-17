@@ -1,0 +1,16 @@
+This file contains 3 test cases
+
+Student 1:
+Midterm Exam Score: 87
+Final Exam Score: 93
+Average Score: 90
+
+Student 2: 
+Midterm Exam Score: 82
+Final Exam Score: 36
+Average Score: 59
+
+Student 3:
+Midterm Exam Score: 0
+Final Exam Score: 91
+Average Score: 45.5
