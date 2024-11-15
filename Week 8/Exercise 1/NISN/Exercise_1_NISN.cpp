@@ -49,13 +49,11 @@ int main(){
     else if(choice == 3){
               std::cout<<"You have chosen the bubble sorting method."<<std::endl;
         long long int temp;
-        for(int i = 0; i < dataSize - 1; i++){
-            for(int j = 0; j < dataSize - 1; j++){
-                if(NISN[j] < NISN[j + 1]){
-                    temp = NISN[j];
-                    NISN[j] = NISN[j+1];
-                    NISN[j+1] = temp;
-                }
+        for(int j = 0; j < dataSize - 1; j++){
+            if(NISN[j] < NISN[j + 1]){
+                temp = NISN[j];
+                NISN[j] = NISN[j+1];
+                NISN[j+1] = temp;
             }
         }
         for(int i = 0; i < dataSize; i++){
