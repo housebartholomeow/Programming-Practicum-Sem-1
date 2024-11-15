@@ -46,13 +46,11 @@ int main(){
     else if(choice == 3){
         std::cout<<"You have chosen the bubble sorting method."<<std::endl;
         int dataSize = sizeof(Value)/sizeof(Value[0]), temp;
-        for(int i = 0; i < dataSize - 1; i++){
-            for(int j = 0; j < dataSize - 1; j++){
-                if(Value[j] < Value[j + 1]){
-                    temp = Value[j];
-                    Value[j] = Value[j+1];
-                    Value[j+1] = temp;
-                }
+        for(int j = 0; j < dataSize - 1; j++){
+            if(Value[j] < Value[j + 1]){
+                temp = Value[j];
+                Value[j] = Value[j+1];
+                Value[j+1] = temp;
             }
         }
         for(int i = 0; i < dataSize; i++){
