@@ -1,0 +1,4 @@
+This test case contains one test case.
+
+Query: 60
+Output: Handi Ramadhan, Rio Alfandra, Ronaldo Valentino Uneputty, Joko, Alivia Rahma Pramesti, Ari Lutfianto, Joko
