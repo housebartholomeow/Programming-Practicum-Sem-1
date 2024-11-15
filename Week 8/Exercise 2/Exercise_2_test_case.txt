@@ -1,0 +1,4 @@
+This file contains one test case.
+
+Query: 9950310962
+Output: NISN 9950310962 is found in the array. The value of the NISN is 80.
