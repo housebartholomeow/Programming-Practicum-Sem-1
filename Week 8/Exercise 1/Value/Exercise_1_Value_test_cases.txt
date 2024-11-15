@@ -1,0 +1,23 @@
+This file contains four test cases.
+
+Case 1:
+Input: 1
+Output:
+You have chosen the insertion sorting method.
+90 80 70 65 60 60 55
+
+Case 2:
+Input: 2
+Output:
+You have chosen the insertion sorting method.
+90 80 70 65 60 60 55
+
+Case 3:
+Input: 3
+Output:
+You have chosen the bubble sorting method.
+90 80 70 65 60 60 55
+
+Case 4:
+Input: 4
+Output: Please type in one of the predetermined numbers.
