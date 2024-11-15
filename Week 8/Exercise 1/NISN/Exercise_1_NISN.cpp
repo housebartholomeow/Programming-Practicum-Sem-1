@@ -29,7 +29,7 @@ int main(){
     }
     else if(choice == 2){
               std::cout<<"You have chosen the selection sorting method."<<std::endl;
-        int i, max;
+        int max;
         long long int temp;
         for(int i = 0; i < dataSize; i++){
             max = i;
@@ -48,7 +48,6 @@ int main(){
     }
     else if(choice == 3){
               std::cout<<"You have chosen the bubble sorting method."<<std::endl;
-        int i;
         long long int temp;
         for(int i = 0; i < dataSize - 1; i++){
             for(int j = 0; j < dataSize - 1; j++){
