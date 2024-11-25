@@ -1,0 +1,16 @@
+This test case contains three test cases
+
+Case 1:
+Array: {1, 2, 3, 4, 5}
+Odd numbers: 3
+Even numbers: 2
+
+Case 2:
+Array: {4, 1, 7, 2, 8, 9, 21, 56, 32, 78}
+Odd numbers: 4
+Even numbers: 6
+
+Case 3:
+Array: {5, 3, 2, 7, 4, 86, 435, 86584, 242454, 879797067, 32323525}
+Odd numbers: 6
+Even numbers: 5
