@@ -1,0 +1,14 @@
+This test file contains three test cases
+
+Case 1:
+Number: 43567
+Palindrome: 76534
+
+Case 2:
+Number: 1234567
+Palindrome: 7654321
+
+Case 3:
+
+Number: 235472058907
+Palindrome: 709850274532
