@@ -1,0 +1,20 @@
+This test file contains three test cases.
+
+Case 1:
+a: 3
+b: 21
+c: 9
+x1: -0.458619
+x2: -6.54138
+
+Case 2:
+a: 4
+b: 8
+c: 4
+root for quadratic equation: -1
+
+Case 3:
+a: 7
+b: 2
+c: 9
+Output: cannot compute; roots are not real
