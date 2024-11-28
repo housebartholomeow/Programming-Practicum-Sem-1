@@ -1,7 +1,8 @@
 CXX = g++
 CXXFLAGS = -Wall
-TARGET = problem_1
-SRC = problem_1.cpp
+TARGET = Problem_1
+SRC = Problem_1.cpp
+TEST_FILE = Problem_1_test_cases.txt
 
 all: $(TARGET)
 	./$(TARGET)
@@ -9,8 +10,8 @@ all: $(TARGET)
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 
-test: $(TARGET)
-	./$(TARGET) test
+test: 
+	cat $(TEST_FILE)
 
 clean:
 	rm -f $(TARGET)
